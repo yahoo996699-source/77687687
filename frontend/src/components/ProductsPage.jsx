@@ -4,6 +4,7 @@ import Breadcrumb from "./Breadcrumb";
 import SortFilter from "./SortFilter";
 import ProductGrid from "./ProductGrid";
 import WhatsAppWidget from "./WhatsAppWidget";
+import { Toaster } from "./ui/toaster";
 import { mockProducts } from "../data/mockData";
 
 const ProductsPage = () => {
