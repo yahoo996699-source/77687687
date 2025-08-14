@@ -71,6 +71,7 @@ const ProductsPage = () => {
         </div>
       </div>
       <WhatsAppWidget />
+      <Toaster />
     </div>
   );
 };
