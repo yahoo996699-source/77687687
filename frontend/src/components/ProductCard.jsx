@@ -103,7 +103,7 @@ const ProductCard = ({ product }) => {
       </div>
 
       {/* Hover Overlay Effect */}
-      <div className={`absolute inset-0 bg-yellow-500/5 transition-opacity duration-300 ${
+      <div className={`absolute inset-0 bg-yellow-500/5 transition-opacity duration-300 pointer-events-none ${
         isHovered ? 'opacity-100' : 'opacity-0'
       }`} />
     </div>
